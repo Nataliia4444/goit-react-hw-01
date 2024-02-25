@@ -1,0 +1,51 @@
+.cardProfile {
+  outline: 4px solid white;
+  padding-top: 20px;
+  color: rgb(231, 233, 236);
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(10, 23, 18);
+  font-weight: 500;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.activityItem {
+  outline: 1px solid white;
+  width: 70px;
+  padding: 10px;
+}
+.activityList {
+  display: flex;
+  outline: 2px solid rgb(254, 254, 254);
+  height: 80px;
+  margin-top: 20px;
+  max-width: 100%;
+  background-color: rgb(30, 39, 36);
+  color: rgb(120, 126, 135);
+}
+.userData {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.circleImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(226, 236, 236);
+}
+.userName {
+  color: rgb(164, 171, 164);
+  background-color: rgb(30, 39, 36);
+  width: 100%;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
