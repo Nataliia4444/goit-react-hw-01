@@ -1,5 +1,5 @@
 .table {
-  width: 700px;
+  width: 690px;
   margin: 0;
   padding: 0;
   border-collapse: collapse;
@@ -18,11 +18,11 @@
 }
 .th {
   font-weight: bold;
+  width: 290px;
 }
 .tr .th:first-child,
 .tr .td:first-child {
-  text-align: left;
-  width: 120px;
+  text-align: center;
 }
 .tableWrapper {
   text-align: center;
